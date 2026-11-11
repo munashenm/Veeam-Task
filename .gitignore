@@ -1,0 +1,43 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Aa]rtifacts/
+[Ll]og/
+
+# .NET / NuGet
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage*.json
+coverage*.xml
+
+# Visual Studio, Rider, VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.rsuser
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs from trying the sync
+*.log
